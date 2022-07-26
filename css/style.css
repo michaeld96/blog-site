@@ -1,0 +1,12 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+.container-navbar
+{
+    top: -22px;
+    background-color: blueviolet;
+    position: relative;
+    color: white;
+}
