@@ -24,3 +24,24 @@ When it comes to writing the index for the HTML you are going to have the basic 
 ```
 
 Where we see `<title>` we can type what we want the tab to display. I am going to name this HTML file `index.html` as this will be the landing page for my site. A little background for the naming of `index.html` is that the server will first look for this file and then it'll display it. Most servers are set up to look for the `index.html` file to display the content and then the user and can explore from there. *Note: some servers can be set up to have a different default than `index.html`, but it's a good choice to always use `index.html`*
+
+## 2. The Navbar
+
+This is going to be one of the most important items on a webpage. The user is going to go to this to navigate the page and find other items they want to see. For `<nav>` this is the usual layout:
+
+```HTML
+<header>
+    <div class="navbar">
+        <nav>
+            <h1>Michael's Headspace</h1>
+            <ul>
+                <li>Home</li>
+                <li>Notes</li>
+                <li>Blog</li>
+            </ul>
+        </nav>
+    </div>
+</header>
+```
+
+We are placing the `<nav>` inside of the `<header>`. Placing the `<nav>` tags here tells the browser that this is for navigation links. Now we will place some `<h1>` tags to make our "logo" and then we are going to wrap our navigation in a unordered list and a ordered list inside of it.
