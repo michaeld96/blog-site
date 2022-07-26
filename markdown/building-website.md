@@ -45,3 +45,13 @@ This is going to be one of the most important items on a webpage. The user is go
 ```
 
 We are placing the `<nav>` inside of the `<header>`. Placing the `<nav>` tags here tells the browser that this is for navigation links. Now we will place some `<h1>` tags to make our "logo" and then we are going to wrap our navigation in a unordered list and a ordered list inside of it.
+
+## 3. Adding a Favicon
+
+Adding a favicon to a website is always a fun way to make it unique. To do this we will add `<link>` to the `<head>`. Let's look at the example:
+
+```HTML
+<link rel="icon" href="/media/mihead.png">
+```
+
+We need the `rel = "icon"` because this tells the browser that this is going to be a favicon displayed. Then we have the `href` to the file path to the image we want to act as the favicon.
