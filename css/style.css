@@ -3,10 +3,26 @@ body
     padding: 0px;
     margin: 0px;
 }
-.container-navbar
+.container-navbar 
 {
-    top: -22px;
+    display: flex;
     background-color: blueviolet;
     position: relative;
+    color: white;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.navbar > ul 
+{
+    display: flex;
+    padding: 20px;
+    margin-right: 20px;
+    column-gap: 20%;
+    list-style: none;
+    width: 200px;
+}
+li > a
+{
+    text-decoration: none;
     color: white;
 }
